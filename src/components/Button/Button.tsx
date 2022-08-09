@@ -1,4 +1,3 @@
-import React from "react";
 import "./Button.css";
 
 interface ButtonProps {
@@ -8,12 +7,12 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
-export const Button = ({
+export default function Button({
   buttonType = "primary",
   size = "medium",
   label,
   ...props
-}: ButtonProps) => {
+}: ButtonProps) {
   return (
     <button
       type="button"
@@ -23,4 +22,10 @@ export const Button = ({
       {label}
     </button>
   );
+}
+
+Button.defaultProps = {
+  buttonType: "primary",
+  size: "medium",
+  onClick: null,
 };

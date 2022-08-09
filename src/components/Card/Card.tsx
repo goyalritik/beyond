@@ -10,12 +10,12 @@ interface CardProps {
   icon: "correct" | "wrong";
 }
 
-export const Card = ({
+export default function Card({
   title,
   description,
   icon = "correct",
   ...props
-}: CardProps) => {
+}: CardProps) {
   return (
     <div className="card-container" {...props}>
       <div className="icon-container">
@@ -25,4 +25,4 @@ export const Card = ({
       <div className="description">{description}</div>
     </div>
   );
-};
+}

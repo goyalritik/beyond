@@ -1,4 +1,3 @@
-import React from "react";
 import AboutTeam from "./Homepage/AboutTeam";
 import BgImage from "./Homepage/BgImage";
 import Candidates from "./Homepage/Candidates";
