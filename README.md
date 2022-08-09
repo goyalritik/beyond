@@ -1,9 +1,10 @@
 # Techwondoe React Assignment - Beyond
 
-###Deploy
+### Deploy
+
 Deployed over Netlify after pushing my WebApp to Git I just create a new deployment through Netlify.
 
-###Checklist
+### Checklist
 
 - [x] Each section of the homepage must be a separate react component.
 - [x] Develop using Typescript.
