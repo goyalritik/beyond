@@ -2,7 +2,7 @@
 
 ### Deploy
 
-Deployed over Netlify after pushing my WebApp to Git I just create a new deployment through Netlify.
+Deployed over Netlify after pushing my WebApp to Git I just create a new deployment through Netlify and added all secret or sensitive data to production environment.
 
 ### Checklist
 
