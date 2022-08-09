@@ -18,7 +18,7 @@ function Career() {
         description: content.fields.description,
       });
     } catch (err) {
-      console.log(`Unable to fetch image -> ${err}`);
+      // console.log(`Unable to fetch image -> ${err}`);
     }
   };
   useEffect(() => {

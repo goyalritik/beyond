@@ -9,7 +9,7 @@ function BgImage() {
       const image = await client.getAsset(assetId);
       setBgImageUrl(image.fields.file.url);
     } catch (err) {
-      console.log(`Unable to fetch image -> ${err}`);
+      // console.log(`Unable to fetch image -> ${err}`);
     }
   };
   useEffect(() => {

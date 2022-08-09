@@ -28,7 +28,7 @@ function Candidates() {
         }),
       );
     } catch (err) {
-      console.log(`Unable to Fetch WhyChooseSection -> ${err}`);
+      // console.log(`Unable to fetch data -> ${err}`);
     }
   };
   useEffect(() => {

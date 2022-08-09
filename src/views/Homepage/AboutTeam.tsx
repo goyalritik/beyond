@@ -23,7 +23,7 @@ function AboutTeam() {
         imageUrl: content.fields.image.fields.file.url,
       });
     } catch (err) {
-      console.log(`Unable to fetch image -> ${err}`);
+      // console.log(`Unable to fetch data -> ${err}`);
     }
   };
   useEffect(() => {
