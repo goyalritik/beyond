@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  border-radius: 5px;
+}
+
+.button-color-primary {
+  color: #ffffff;
+  background-color: #e6692e;
+}
+
+.button-color-secondary {
+  color: #e6692e;
+  background-color: #ffffff;
+}
+
+.button-size-small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.button-size-medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.button-size-large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

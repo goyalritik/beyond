@@ -1,0 +1,26 @@
+.card-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container {
+  align-self: start;
+  color: #e6692e;
+  font-size: 18px;
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 8px 8px 0 8px;
+  grid-column-start: col-start 2;
+  align-self: start;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 0.5rem;
+  grid-column-start: col-start 2;
+}
